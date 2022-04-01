@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="main.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script 
+    src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" 
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" 
+    crossorigin="anonymous" 
+    async
+   ></script>
     <title>Goh Qing Hao!</title>
   </head>
 
@@ -68,30 +70,20 @@
           </div>
         </div>
         
-      <div class="row" data-masonry="{'percentPosition': true }" style="position: relative">
-          <div class="col-12 col-lg-6">
-            <h2>Work Experience</h2>
-            <h4>Intern</h4>
-            <h5>DF Automation & Robotics Sdn. Bhd.</h5>
-            <h6>Oct 2020 – Jan 2021</h6>
-            <ul>
-              <li>Assisted in developing AGILE burndown chart data visualization from JSON format</li>
-              <li>Assisted in developing a vision-based solution to automate Stopping Accuracy Test with TagSLAM.</li>
-              <li>Designed and built heavy-duty mechanical workbench.</li>
-            </ul>
-          </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4" data-masonry='{"percentPosition": true,  "itemSelector": ".col" }'>
+        <div class="col">
+          <h2>Work Experience</h2>
+          <h4>Intern</h4>
+          <h5>DF Automation & Robotics Sdn. Bhd.</h5>
+          <h6>Oct 2020 – Jan 2021</h6>
+          <ul>
+            <li>Assisted in developing AGILE burndown chart data visualization from JSON format</li>
+            <li>Assisted in developing a vision-based solution to automate Stopping Accuracy Test with TagSLAM.</li>
+            <li>Designed and built heavy-duty mechanical workbench.</li>
+          </ul>
+        </div>
 
-          <div class="col-12 col-lg-6">
-            <h2>Achievements</h2>
-            <ul>
-              <li>Recipient of UTAR 100% Scholarship for High Achievers</li>
-              <li>Finalist – Institute of Engineers Malaysia 5th Tan Sri Ir Hj Yusoff Ibrahim Best FYP Competition</li>
-              <li>Gold Award – UTAR Final Year Project Competition</li>
-              <li>Semi Finalist – IEEE Five Minutes Final Year Project (5MFYP) Competition</li>
-            </ul>
-          </div>
-
-          <div class="col-12 col-lg-6">
+        <div class="col">
           <h2>Achievements</h2>
           <ul>
             <li>Recipient of UTAR 100% Scholarship for High Achievers</li>
@@ -100,7 +92,8 @@
             <li>Semi Finalist – IEEE Five Minutes Final Year Project (5MFYP) Competition</li>
           </ul>
         </div>
-        <div class="col-12 col-lg-6">
+
+        <div class="col">
         <h2>Achievements</h2>
         <ul>
           <li>Recipient of UTAR 100% Scholarship for High Achievers</li>
@@ -108,7 +101,16 @@
           <li>Gold Award – UTAR Final Year Project Competition</li>
           <li>Semi Finalist – IEEE Five Minutes Final Year Project (5MFYP) Competition</li>
         </ul>
-      </div>
+        </div>
+        <div class="col">
+          <h2>Achievements</h2>
+          <ul>
+            <li>Recipient of UTAR 100% Scholarship for High Achievers</li>
+            <li>Finalist – Institute of Engineers Malaysia 5th Tan Sri Ir Hj Yusoff Ibrahim Best FYP Competition</li>
+            <li>Gold Award – UTAR Final Year Project Competition</li>
+            <li>Semi Finalist – IEEE Five Minutes Final Year Project (5MFYP) Competition</li>
+          </ul>
+        </div>
           
       </div>
 
@@ -124,16 +126,12 @@
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script 
-      src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" 
-      integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" 
-      crossorigin="anonymous" 
-      async
-     ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <!-- Masonry scripts-->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
   </body>
 </html>
