@@ -8,7 +8,7 @@
     <title>Bootstrap 5 with Masonry!</title>
     <!-- Scripts -->
     <script src="/index.js"></script>
-    <link href="./styles.scss" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -20,10 +20,10 @@
 
   <body>
     <div class="container py-5 mt-5">
-      <div class="row">
+      <div id="head" class="row">
         <div class="col-12 col-lg-8">
-          <h2>Goh Qing Hao</h2>
-          <h3>Graduate Engineers (Mechatronics)</h3>
+          <h3 id="resume-name">Goh Qing Hao</h2>
+          <h4>Graduate Engineers (Mechatronics)</h3>
         </div>
 
         <div class="col-12 col-lg-4">
@@ -78,7 +78,7 @@
         data-masonry='{"percentPosition": true,  "itemSelector": ".col" }'
       >
         <div class="col">
-          <h2>Work Experience</h2>
+          <h3>Work Experience</h3>
           <h4>Intern</h4>
           <h5>DF Automation & Robotics Sdn. Bhd.</h5>
           <h6>Oct 2020 – Jan 2021</h6>
@@ -113,7 +113,7 @@
           </ul>
         </div>
         <div class="col">
-          <h2>Achievements</h2>
+          <h3>Achievements</h3>
           <ul>
             <li>Recipient of UTAR 100% Scholarship for High Achievers</li>
             <li>
@@ -130,13 +130,13 @@
         </div>
 
         <div class="col">
-          <h2>Education</h2>
+          <h3>Education</h3>
           <h4>BEng in Mechatronics Engineering with Distinction</h4>
           <h5>Universiti Tunku Abdul Rahman</h5>
           <h6>Jan 2018 – Jan 2022</h6>
         </div>
         <div class="col">
-          <h2>Technical Skills</h2>
+          <h3>Technical Skills</h3>
           <h4>Competant with the following skills:</h4>
           <p>
             <span class="badge rounded-pill bg-dark">C++</span>
@@ -165,7 +165,7 @@
           </p>
         </div>
         <div class="col">
-          <h2>Language Proficiency</h2>
+          <h3>Language Proficiency</h3>
           <div class="row justify-content-start">
             <div class="col-2 col-md-3 col-lg-2 text-start"></div>
             <div class="col-2 text-start">Basic</div>
@@ -325,9 +325,14 @@
           </div>
         </div>
         <div class="col">
-          <h2>Reference</h2>
+          <h3>Reference</h3>
           <h4>Dr. Goh Choon Hian</h4>
           <h5>Academic Advisor</h5>
+          <p>
+            Assistant Professor (Department of Mechatronics and Biomedical
+            Engineering)
+          </p>
+          <p>gohch@utar.edu.my</p>
         </div>
       </div>
     </div>
